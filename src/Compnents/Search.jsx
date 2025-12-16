@@ -55,7 +55,7 @@ export default function Search() {
       customer_address: address,
       order_item: currentTitle,
       order_price: currentprice,
-      order_image: currentImage,
+      order_image: `https://mezie-egbu.github.io${currentImage}`,
     };
 
     emailjs
