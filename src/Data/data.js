@@ -7,7 +7,7 @@ import aboutImage4 from "../assets/aboutImage4.jpg";
 import aboutImage5 from "../assets/aboutImage5.jpg";
 import aboutImage6 from "../assets/aboutImage6.jpg";
 
-import heroImage from "../assets/heroImage.jpg";
+import heroImageDisplay from "../assets/heroImage.jpg";
 
 import AfricanChickenStewOnRice from "../assets/African chicken stew on Rice.jpg";
 import CoconutCurryRiceWithGrilledChicken from "../assets/Coconut Curry Rice with Grilled Chicken.jpg";
@@ -39,7 +39,7 @@ export const RestaurantName = "IMMA CHOPS";
 
 export const logo = logoImage;
 
-export const heroImage = heroImage;
+export const heroImage = heroImageDisplay;
 
 export const catchyExpression = [
   { title: "GET PERFECT DIET", id: 1 },
