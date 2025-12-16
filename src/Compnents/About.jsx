@@ -1,10 +1,5 @@
-import { useEffect, useRef } from "react";
 import { AboutInfo } from "../Data/data";
 import { aboutImages } from "../Data/data";
-import { ScrollTrigger } from "gsap/all";
-import gsap from "gsap";
-
-gsap.registerPlugin(ScrollTrigger);
 
 export default function About() {
   return (

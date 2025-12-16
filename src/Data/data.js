@@ -1,6 +1,45 @@
+import logo from "../assets/Logo.png";
+
+import aboutImage1 from "../assets/aboutImage1.jpg";
+import aboutImage2 from "../assets/aboutImage2.jpg";
+import aboutImage3 from "../assets/aboutImage3.jpg";
+import aboutImage4 from "../assets/aboutImage4.jpg";
+import aboutImage5 from "../assets/aboutImage5.jpg";
+import aboutImage6 from "../assets/aboutImage6.jpg";
+
+import heroImage from "../assets/heroImage.jpg";
+
+import AfricanChickenStewOnRice from "../assets/African chicken stew on Rice.jpg";
+import CoconutCurryRiceWithGrilledChicken from "../assets/Coconut Curry Rice with Grilled Chicken.jpg";
+import BitterLeafSoup from "../assets/Bitter Leaf Soup.jpg";
+import EgusiAndFufuPackage from "../assets/Egusi and Fufu package.jpg";
+import EgusiSoup from "../assets/Egusi Soup.jpg";
+import Egusi from "../assets/Egusi.jpg";
+import FlavorfulRice from "../assets/Flavorful Rice.jpg";
+import GizdodoPlantains from "../assets/Gizdodo Plantains.jpg";
+import GoatMeatPepperSoup from "../assets/Goat meat Pepper Soup.jpg";
+import JollofRiceMaximumPackage from "../assets/Jollof Rice Maximum Package.jpg";
+import NativePepperSoup from "../assets/Native Pepper Soup.jpg";
+import NigerianEgusiSoup from "../assets/Nigerian Egusi Soup.jpg";
+import NigerianPepperSoup from "../assets/Nigerian Pepper Soup.jpg";
+import NkwobiAfricaNativeFood from "../assets/Nkwobi Africa native food.jpg";
+import NkwobiNative from "../assets/Nkwobi Native.jpg";
+import Nkwobi from "../assets/Nkwobi.jpg";
+import OgbonoSoupWithBitterLeaf from "../assets/Ogbono Soup with bitter leaf.jpg";
+import OwerriNkwobi from "../assets/Owerri Nkwobi.jpg";
+import PepperSoup from "../assets/Pepper Soup.jpg";
+import PeriPeriJollofRiceAndChicken from "../assets/Peri Peri Jollof Rice and Chicken.jpg";
+import RiceStewAndDodo from "../assets/Rice Stew and Dodo.jpg";
+import SmokyNigerianJollofRice from "../assets/Smoky Nigerian Jollof Rice.jpg";
+import WhiteRiceAndStew from "../assets/White Rice and Stew.jpg";
+import WhiteRiceBoiledEggFriedPlantainPackage from "../assets/White rice, boiled egg, fried plantain Package.jpg";
+import YorubaEgusiSoup from "../assets/Yoruba Egusi Soup.jpg";
+
 export const RestaurantName = "IMMA CHOPS";
 
-export const logo = "/images/Logo.png";
+export const logo = logo;
+
+export const heroImage = heroImage;
 
 export const catchyExpression = [
   { title: "GET PERFECT DIET", id: 1 },
@@ -29,163 +68,163 @@ export const AboutInfo = {
 };
 
 export const aboutImages = [
-  { id: 1, src: "/images/aboutImage1.jpg", alt: "About Image 1" },
-  { id: 2, src: "/images/aboutImage2.jpg", alt: "About Image 2" },
-  { id: 3, src: "/images/aboutImage3.jpg", alt: "About Image 3" },
-  { id: 4, src: "/images/aboutImage4.jpg", alt: "About Image 4" },
-  { id: 5, src: "/images/aboutImage5.jpg", alt: "About Image 5" },
-  { id: 6, src: "/images/aboutImage6.jpg", alt: "About Image 6" },
+  { id: 1, src: aboutImage1, alt: "About Image 1" },
+  { id: 2, src: aboutImage2, alt: "About Image 2" },
+  { id: 3, src: aboutImage3, alt: "About Image 3" },
+  { id: 4, src: aboutImage4, alt: "About Image 4" },
+  { id: 5, src: aboutImage5, alt: "About Image 5" },
+  { id: 6, src: aboutImage6, alt: "About Image 6" },
 ];
 
 export const orders = [
   {
     id: 1,
     title: "african chicken stew on rice",
-    src: "/images/African chicken stew on Rice.jpg",
+    src: AfricanChickenStewOnRice,
     price: "$15",
   },
   {
     id: 2,
     title: "coconut curry rice with grilled chicken",
-    src: "/images/Coconut Curry Rice with Grilled Chicken.jpg",
+    src: CoconutCurryRiceWithGrilledChicken,
     price: "$12",
   },
   {
     id: 3,
     title: "bitter leaf soup",
-    src: "/images/Bitter Leaf Soup.jpg",
+    src: BitterLeafSoup,
     price: "$25",
   },
   {
     id: 4,
     title: "egusi and fufu package",
-    src: "/images/Egusi and Fufu package.jpg",
+    src: EgusiAndFufuPackage,
     price: "$10",
   },
   {
     id: 5,
     title: "egusi soup",
-    src: "/images/Egusi Soup.jpg",
+    src: EgusiSoup,
     price: "$15",
   },
   {
     id: 6,
     title: "egusi",
-    src: "/images/Egusi.jpg",
+    src: Egusi,
     price: "$25",
   },
   {
     id: 7,
     title: "flavorful rice",
-    src: "/images/Flavorful Rice.jpg",
+    src: FlavorfulRice,
     price: "$7",
   },
   {
     id: 9,
     title: "gizdodo plantains",
-    src: "/images/Gizdodo Plantains.jpg",
+    src: GizdodoPlantains,
     price: "$15",
   },
   {
     id: 10,
     title: "Goat meat Pepper Soup",
-    src: "/images/Goat meat Pepper Soup.jpg",
+    src: GoatMeatPepperSoup,
     price: "$5",
   },
   {
     id: 11,
     title: "jollof rice maximum package",
-    src: "/images/Jollof Rice Maximum Package.jpg",
+    src: JollofRiceMaximumPackage,
     price: "$150",
   },
   {
     id: 12,
     title: "native pepper soup",
-    src: "/images/Native Pepper Soup.jpg",
+    src: NativePepperSoup,
     price: "$15",
   },
   {
     id: 13,
     title: "nigerian egusi soup",
-    src: "/images/Nigerian Egusi Soup.jpg",
+    src: NigerianEgusiSoup,
     price: "$14",
   },
   {
     id: 14,
     title: "nigerian pepper soup",
-    src: "/images/Nigerian Pepper Soup.jpg",
+    src: NigerianPepperSoup,
     price: "$15",
   },
   {
     id: 15,
     title: "nkwobi africa native food",
-    src: "/images/Nkwobi Africa native food.jpg",
+    src: NkwobiAfricaNativeFood,
     price: "$18",
   },
   {
     id: 16,
     title: "nkwobi native",
-    src: "/images/Nkwobi Native.jpg",
+    src: NkwobiNative,
     price: "$14",
   },
   {
     id: 17,
     title: "nkwobi",
-    src: "/images/Nkwobi.jpg",
+    src: Nkwobi,
     price: "$16",
   },
   {
     id: 18,
     title: "ogbono soup with bitter leaf",
-    src: "/images/Ogbono Soup with bitter leaf.jpg",
+    src: OgbonoSoupWithBitterLeaf,
     price: "$19",
   },
   {
     id: 20,
     title: "Owerri Nkwobi",
-    src: "/images/Owerri Nkwobi.jpg",
+    src: OwerriNkwobi,
     price: "$10",
   },
   {
     id: 21,
     title: "pepper soup",
-    src: "/images/Pepper Soup.jpg",
+    src: PepperSoup,
     price: "$15",
   },
   {
     id: 22,
     title: "peri peri jollof rice and chicken",
-    src: "/images/Peri Peri Jollof Rice and Chicken.jpg",
+    src: PeriPeriJollofRiceAndChicken,
     price: "$16",
   },
   {
     id: 23,
     title: "rice stew and dodo",
-    src: "/images/Rice Stew and Dodo.jpg",
+    src: RiceStewAndDodo,
     price: "$15",
   },
   {
     id: 24,
     title: "smoky nigerian jollof rice",
-    src: "/images/Smoky Nigerian Jollof Rice.jpg",
+    src: SmokyNigerianJollofRice,
     price: "$15",
   },
   {
     id: 25,
     title: "white rice and stew",
-    src: "/images/White Rice and Stew.jpg",
+    src: WhiteRiceAndStew,
     price: "$11",
   },
   {
     id: 26,
     title: "white rice, boiled egg, fried plantain package",
-    src: "/images/White rice, boiled egg, fried plantain Package.jpg",
+    src: WhiteRiceBoiledEggFriedPlantainPackage,
     price: "$15",
   },
   {
     id: 27,
     title: "yoruba egusi soup",
-    src: "/images/Yoruba Egusi Soup.jpg",
+    src: YorubaEgusiSoup,
     price: "$13",
   },
 ];

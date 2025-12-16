@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { heroImage } from "../Data/data";
 import { logo } from "../Data/data";
 import { RestaurantName } from "../Data/data";
 import { catchyExpression } from "../Data/data";
@@ -41,11 +41,7 @@ export default function Hero() {
         </div>
       </div>
       <div className=" hidden sm:block mt-[calc(0.15*100vh)]  w-full lg:w-[90%] ">
-        <img
-          src="/images/heroImage.jpg"
-          alt="hero Image"
-          className="lg:w-[60%] mx-auto"
-        />
+        <img src={heroImage} alt="hero Image" className="lg:w-[60%] mx-auto" />
       </div>
     </div>
   );
