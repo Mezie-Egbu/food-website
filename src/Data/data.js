@@ -37,7 +37,7 @@ import YorubaEgusiSoup from "../assets/Yoruba Egusi Soup.jpg";
 
 export const RestaurantName = "IMMA CHOPS";
 
-export const logoImage = logo;
+export const logo = logoImage;
 
 export const heroImage = heroImage;
 
