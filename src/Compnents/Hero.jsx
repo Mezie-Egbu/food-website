@@ -14,7 +14,7 @@ export default function Hero() {
   return (
     <div
       id="Hero"
-      className="flex relative text-white bg-[url(/images/heroImage.jpg)] bg-center bg-no-repeat bg-cover sm:bg-none sm:bg-black text-center sm:text-left sm:p-0 h-[calc(100vh-64px)] scroll-mt-17 hero"
+      className="flex relative text-white bg-[url(/images/heroImagePhone.jpg)] bg-center bg-no-repeat bg-cover sm:bg-none sm:bg-black text-center sm:text-left sm:p-0 h-[calc(100vh-64px)] scroll-mt-17 hero"
     >
       <div className="mt-[calc(0.15*100vh)] w-full lg:pl-35">
         <h1 className="flex text-5xl font-name sm:pt-10">

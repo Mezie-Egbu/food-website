@@ -1,4 +1,4 @@
-import logo from "../assets/Logo.png";
+import logoImage from "../assets/Logo.png";
 
 import aboutImage1 from "../assets/aboutImage1.jpg";
 import aboutImage2 from "../assets/aboutImage2.jpg";
@@ -37,7 +37,7 @@ import YorubaEgusiSoup from "../assets/Yoruba Egusi Soup.jpg";
 
 export const RestaurantName = "IMMA CHOPS";
 
-export const logo = logo;
+export const logoImage = logo;
 
 export const heroImage = heroImage;
 
